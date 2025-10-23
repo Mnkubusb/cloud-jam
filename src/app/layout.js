@@ -6,20 +6,20 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Google Cloud Study Jams 25-26 | GDGC MLRIT",
+  title: "Google Cloud Study Jams 25-26 | GDG GECB",
   description: "Live leaderboard for Google Cloud Study Jams 2025-26. Track skill badges, arcade games, and participant progress at MLR Institute of Technology.",
   keywords: ["Google Cloud", "Study Jams", "GCCP", "GDGC MLRIT", "Leaderboard", "Cloud Skills"],
-  authors: [{ name: "GDGC MLRIT" }],
-  creator: "GDGC MLRIT",
-  publisher: "GDGC MLRIT",
+  authors: [{ name: "GDG GECB" }],
+  creator: "GDG GECB",
+  publisher: "GDG GECB",
   robots: "index,follow",
   
   // Open Graph metadata for social sharing
   openGraph: {
-    title: "Google Cloud Study Jams 25-26 | GDGC MLRIT",
+    title: "Google Cloud Study Jams 25-26 | GDG GECB",
     description: "Live leaderboard for Google Cloud Study Jams 2025-26. Track skill badges, arcade games, and participant progress.",
-    url: "https://cloud-jam-leaderboard-1114088229.asia-south1.run.app",
-    siteName: "Cloud Jam MLRIT Leaderboard",
+    url: "https://googlecloudjamleaderboard.vercel.app/",
+    siteName: "Cloud Jam GECB Leaderboard",
     images: [
       {
         url: "https://raw.githubusercontent.com/fenilmodi00/GCCP-Jams/main/public/assets/Screenshot%202023-09-12%20191408.png",
@@ -32,13 +32,13 @@ export const metadata = {
     type: "website",
   },
   
-  // Twitter Card metadata
+  
   twitter: {
     card: "summary_large_image",
-    title: "Google Cloud Study Jams 25-26 | GDGC MLRIT",
+    title: "Google Cloud Study Jams 25-26 | GDG GECB",
     description: "Live leaderboard for Google Cloud Study Jams 2025-26. Track skill badges, arcade games, and participant progress.",
     images: ["https://raw.githubusercontent.com/fenilmodi00/GCCP-Jams/main/public/assets/Screenshot%202023-09-12%20191408.png"],
-    creator: "@gdgcMLRIT",
+    creator: "@gdgecb",
   },
 }
 

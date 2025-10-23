@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Script from 'next/script';
-import Link from 'next/link'
 import TableIndex from "@/components/Table.Index";
 export default function Home() {
   

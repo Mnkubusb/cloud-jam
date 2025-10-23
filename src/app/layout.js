@@ -18,11 +18,11 @@ export const metadata = {
   openGraph: {
     title: "Google Cloud Study Jams 25-26 | GDG GECB",
     description: "Live leaderboard for Google Cloud Study Jams 2025-26. Track skill badges, arcade games, and participant progress.",
-    url: "https://googlecloudjamleaderboard.vercel.app/",
+    url: "https://googlecloudjamleaderboard.vercel.app",
     siteName: "Cloud Jam GECB Leaderboard",
     images: [
       {
-        url: "https://raw.githubusercontent.com/fenilmodi00/GCCP-Jams/main/public/assets/Screenshot%202023-09-12%20191408.png",
+        url: "https://github.com/Mnkubusb/cloud-jam/blob/main/public/assets/Screenshot.png?raw=true",
         width: 1200,
         height: 630,
         alt: "Google Cloud Study Jams Leaderboard",
@@ -37,7 +37,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Google Cloud Study Jams 25-26 | GDG GECB",
     description: "Live leaderboard for Google Cloud Study Jams 2025-26. Track skill badges, arcade games, and participant progress.",
-    images: ["https://raw.githubusercontent.com/fenilmodi00/GCCP-Jams/main/public/assets/Screenshot%202023-09-12%20191408.png"],
+    images: ["https://github.com/Mnkubusb/cloud-jam/blob/main/public/assets/Screenshot.png?raw=true"],
     creator: "@gdgecb",
   },
 }
@@ -52,7 +52,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Analytics />
-        
       </body>
     </html>
   )
